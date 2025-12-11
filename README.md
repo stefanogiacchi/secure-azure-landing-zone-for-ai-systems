@@ -114,79 +114,6 @@ The code and documentation are organized to separate infrastructure from governa
 ---
 
 🧩 Key Use Cases
-This Landing Zone is best suited for scenarios demanding the highest level of security and compliance:
-
-AI systems in Regulated Sectors (Government, Finance, Healthcare).
-
-Systems classified as "Mission Critical."
-
-RAG Assistants (Retrieval-Augmented Generation) handling sensitive enterprise data.
-
-Environments requiring clear Data Governance and AI Auditability.
-
-Would you like to focus on reviewing a specific section, such as the details of the Private Connectivity for Azure OpenAI?
-
-
-
-
-
-Certamente. Ecco il documento ottimizzato della Secure Azure Landing Zone per sistemi AI, tradotto in **inglese semplificato** e formattato come documento Markdown (MD) pronto per un repository.
-
----
-
-# 🛡️ Secure Azure Landing Zone for AI Systems
-
-**Author:** Stefano Giacchi
-**Role:** Enterprise Architect • Security Architect • Cloud Specialist
-
-## 📌 Overview: Secure AI Foundation
-
-This document describes a highly secure and governed cloud environment (Landing Zone) specifically designed for enterprise-level Artificial Intelligence (AI) systems.
-
-The solution is built on these core principles:
-* **Zero Trust:** Never trust, always verify.
-* **Azure Security Benchmark (ASB):** Microsoft's security best practices.
-* **AI Governance & Responsible AI:** Ensuring ethical, compliant, and auditable AI deployment.
-
-**Goal:** Provide a complete, repeatable template to build AI systems that are **scalable, secure, governed, and auditable** for mission-critical operations.
-
----
-
-## 🧠 Architecture Diagram (Simplified Flow)
-
-This architecture ensures secure data and component separation.
-
-$$
-[User] \xrightarrow{\text{Auth}} [Entra ID] \xrightarrow{\text{Firewall/WAF}} [Frontdoor / API Gateway] 
-$$
-
-$$
-\downarrow \text{Internal/Private}
-$$
-
-$$
-[Private AKS / App Service Environment] \xrightarrow{\text{AI Core}} [AI Workload: Azure OpenAI / Cognitive Services]
-$$
-
-$$
-\downarrow \text{Secure Data Access}
-$$
-
-$$
-[Vector DB / Storage] \xrightarrow{\text{Monitoring}} [Security Monitoring: Sentinel + Defender]
-$$
-
-$$
-\downarrow \text{Secrets}
-$$
-
-$$
-[Key Vault + Secrets] \xrightarrow{\text{Network Control}} [Network Segmentation + Private Endpoints]
-$$
-
----
-
-
 
 This Landing Zone is best suited for scenarios demanding the highest level of security and compliance:
 
@@ -195,6 +122,6 @@ This Landing Zone is best suited for scenarios demanding the highest level of se
 * **RAG Assistants** (Retrieval-Augmented Generation) handling sensitive enterprise data.
 * Environments requiring clear **Data Governance and AI Auditability.**
 
----
 
-*Would you like to focus on reviewing a specific section, such as the details of the **Private Connectivity** for Azure OpenAI?*
+
+ 
