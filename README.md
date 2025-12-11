@@ -1,7 +1,9 @@
 🛡️ Secure Azure Landing Zone for AI Systems
+
 Author: Stefano Giacchi Role: Enterprise Architect • Security Architect • Cloud Specialist
 
 📌 Overview: Secure AI Foundation
+
 This document describes a highly secure and governed cloud environment (Landing Zone) specifically designed for enterprise-level Artificial Intelligence (AI) systems.
 
 The solution is built on these core principles:
